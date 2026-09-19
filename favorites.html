@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gallery Turky | المفضلة</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="topbar">توصيل لجميع محافظات مصر · تكلفة التوصيل 130 جنيه</div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">G</span
+          ><span class="brand-text"
+            ><strong>GALLERY TURKY</strong
+            ><span>جودة · أناقة · لمسة تركية</span></span
+          ></a
+        >
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">الرئيسية</a><a class="" href="bags.html">الشنط</a
+          ><a class="" href="accessories.html">الإكسسوارات</a
+          ><a class="" href="home-tools.html">الأدوات المنزلية</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="icon-btn" href="favorites.html"
+            ><i class="fa-regular fa-heart"></i
+            ><span class="count fav-count">0</span></a
+          ><a class="icon-btn" href="cart.html"
+            ><i class="fa-solid fa-bag-shopping"></i
+            ><span class="count cart-count">0</span></a
+          ><button class="icon-btn menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="page-head">
+        <div class="container">
+          <div class="eyebrow">YOUR PICKS</div>
+          <h1>المفضلة</h1>
+          <p>المنتجات التي أحببتِها</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="products-grid" id="favoritesGrid"></div>
+          <div id="emptyFavorites" class="empty-state" hidden>
+            <i class="fa-regular fa-heart"></i>
+            <h3>لا توجد منتجات في المفضلة</h3>
+            <p>اضغطي على ❤️ بجانب أي منتج لإضافته هنا.</p>
+            <a class="primary-btn" href="index.html">اكتشفي المنتجات</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-logo" href="index.html">GALLERY TURKY</a>
+          <p>جودة · أناقة · لمسة تركية</p>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4>
+          <a href="index.html">الرئيسية</a><a href="bags.html">الشنط</a
+          ><a href="accessories.html">الإكسسوارات</a
+          ><a href="home-tools.html">الأدوات المنزلية</a>
+        </div>
+        <div>
+          <h4>خدمة العملاء</h4>
+          <a href="favorites.html">المفضلة</a><a href="cart.html">السلة</a
+          ><a href="policy.html">سياسة الاستبدال</a>
+        </div>
+        <div>
+          <h4>تابعينا</h4>
+          <div class="socials" id="socialLinks"></div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Gallery Turky — جميع الحقوق محفوظة</div>
+    </footer>
+    <script src="js/products.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/favorites.js"></script>
+  </body>
+</html>
